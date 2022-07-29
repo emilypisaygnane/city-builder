@@ -1,7 +1,7 @@
 :root {
-    --background: rgb(224, 234, 247);
-    --header-background: white;
-    --footer-background: rgb(243, 242, 242);
+    --background: white;
+    --header-background: rgb(162, 196, 247);
+    --footer-background:rgb(137, 202, 137);
 }
 
 body {
@@ -33,3 +33,14 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+main img {
+    width: 300px;
+}
+
+h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+

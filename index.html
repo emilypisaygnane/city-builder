@@ -17,15 +17,47 @@
 
 <body>
     <header>
-        <img src="/assets/html_css_js.png">
-        <h1>Web App</h1>
+        <h1>Pick Dream Destinations</h1>
     </header>
 
     <main>
+        <section>
+            <select id="water-dropdown">
+                <option value="water">Water Destinations</option>
+                <option value="lake">Pink Lake</option>
+                <option value="lagoon">Blue Lagoon</option>
+                <option value="sea">Aegean Sea</option>
+            </select>
+            <select id="tropical-dropdown">
+                <option value="tropical">Tropical Destinations</option>
+                <option value="hawaii">Maui</option>
+                <option value="tahiti">Bora Bora</option>
+                <option value="bali">Bali</option>
+            </select>   <select id="snowy-dropdown">
+                <option value="Snowy">Snowy Destinations</option>
+                <option value="wyoming">Jackson</option>
+                <option value="canada">Banff</option>
+                <option value="japan">Aomori</option>
+            </select>
+        </section>
+        <section>
+            <p id="times-changed"></p>
+        </section>
+        <section>
+            <img id="water-img" />
+            <img id="tropical-img" />
+            <img id="snowy-img" />
+        </section>
+        
+        <input id="slogan-input" />
+        <button id="slogan-button">Add Your City's Slogan</button>
+        <h2>Slogans:</h2>
+        <div id="slogans">
 
+        </div>
     </main>
 
-    <footer>&copy;2022 Software Developer</footer>
+    <footer>&copy;July 2022 Emily Pisaygnane</footer>
 
     <script type="module" src="app.js"></script>
 </body>
